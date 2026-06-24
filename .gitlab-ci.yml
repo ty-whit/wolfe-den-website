@@ -13,3 +13,6 @@ create-pages:
     - npm install
   script:
     - npm run build
+  artifacts:
+    paths:
+      - public
