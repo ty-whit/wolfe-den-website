@@ -7,6 +7,17 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+/* Global Colors */
+:root {
+  --deep-purple: #60035a;
+  --forest-green: #016b1d;
+  --crimson-red: #720c02;
+  --charcoal-gray: #221F1C;
+  /*--charcol-gray: #333333;*/
+  --silver-accent: #EFEBEE
+  /*--silver-accent: #C0C0C0;*/
+}
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -94,7 +105,7 @@ textarea {
    ========================================================================== */
 
 header {
-  background-color: #1b790f;
+  background-color: var(--crimson-red);
   color: white;
   text-align: center;
   box-sizing: border-box;
@@ -157,7 +168,7 @@ h2.community-links {
 
 /* Site wide horizontal navigation bar */
 nav ul {
-  background-color: #a23c18;
+  background-color: var(--forest-green);
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -187,7 +198,7 @@ nav ul li#signup {
 
 /* Site wide footer */
 #footer {
-  background-color: #3b2193;
+  background-color: var(--deep-purple);
   color: white;
   text-align: center;
   padding: 1em 0;
